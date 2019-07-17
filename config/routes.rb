@@ -25,6 +25,7 @@ Rails.application.routes.draw do
     resources :rooms
     resources :theaters
     resources :movie_theaters
+    resources :orders
   end  
 
   resources :movies, only: [:show, :index]
@@ -33,4 +34,5 @@ Rails.application.routes.draw do
   resources :theaters, only: [:show]
   resources :reviews
   resources :orders, only: [:show]
+  resources :movie_theaters, only: [:show]
 end

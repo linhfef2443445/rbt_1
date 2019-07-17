@@ -73,6 +73,16 @@ en:
       rate: "You rate"
       content: "Your review content"
   manager:
+    orders:
+      index: 
+        all: "All orders"
+        city: "City"
+        date: "Ordered date"
+        theater: "Theater"
+      show: 
+        seat: "Seat"
+        price: "Price"
+        
     theaters:
       new: 
         title: "New theater"
@@ -232,3 +242,11 @@ en:
       show:
         greeting: "Show room %{room} of %{theater} theater"
         index: "Back to index"
+  movie_theaters:
+    show:
+      name: "Name: "
+      category: "Category: "
+      rate: "Rated: "
+      room: "Room: "
+      trailer: "Trailer"
+      ticket: "Book tickets"
